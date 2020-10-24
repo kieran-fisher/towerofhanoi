@@ -41,5 +41,4 @@ def solve(n, source, spare, destination):
     solve(n - 1, spare, source, destination)
 
 
-
 solve(nrings, peg1, peg2, peg3)
